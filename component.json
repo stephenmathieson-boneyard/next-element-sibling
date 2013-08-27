@@ -1,0 +1,16 @@
+{
+  "name": "next-element-sibling",
+  "repo": "stephenmathieson/next-element-sibling",
+  "description": "Element#nextElementSibling component",
+  "version": "0.0.0",
+  "keywords": [],
+  "dependencies": {},
+  "development": {
+    "component/assert": "*"
+  },
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": [
+    "index.js"
+  ]
+}
