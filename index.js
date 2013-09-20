@@ -1,4 +1,3 @@
-
 /**
  * Get the next element sibling of the given element
  *
@@ -13,7 +12,6 @@ module.exports = function (element) {
   }
 
   var node = element.nextSibling;
-  // jshint boss:true
   while (node = node.nextSibling) {
     if (node.nodeType === 1) {
       return node;
