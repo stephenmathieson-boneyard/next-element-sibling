@@ -12,8 +12,9 @@ module.exports = function (element) {
     return element.nextElementSibling;
   }
 
-  var node;
-  while (node = element.nextSibling) {
+  var node = element.nextSibling;
+  // jshint boss:true
+  while (node = node.nextSibling) {
     if (node.nodeType === 1) {
       return node;
     }
