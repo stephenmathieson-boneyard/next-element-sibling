@@ -1,3 +1,4 @@
+
 /**
  * Get the next element sibling of the given element
  *
@@ -11,10 +12,9 @@ module.exports = function (element) {
     return element.nextElementSibling;
   }
 
-  var node = element.nextSibling;
-  while (node = node.nextSibling) {
-    if (node.nodeType === 1) {
-      return node;
+  while (element = element.nextSibling) {
+    if (element.nodeType === 1) {
+      return element;
     }
   }
 
