@@ -2,7 +2,7 @@
   "name": "next-element-sibling",
   "repo": "stephenmathieson/next-element-sibling",
   "description": "Element#nextElementSibling component",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "keywords": [],
   "dependencies": {},
   "development": {
